@@ -1,0 +1,7 @@
+{
+  "texture": "toughasnails:textures/gui/icons.png",
+  "position": "RIGHT",
+  "direction" : "R2L",
+  "renderer": "toughasnails:thirst_renderer",
+  "logic": "toughasnails:thirst_logic"
+}

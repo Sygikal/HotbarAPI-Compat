@@ -1,0 +1,7 @@
+{
+  "underlay": true,
+  "target": "minecraft:food",
+  "texture": "appleskin:textures/icons.png",
+  "renderer": "appleskin:hunger_underlay_renderer",
+  "logic": "appleskin:hunger_underlay_logic"
+}

@@ -1,0 +1,6 @@
+{
+  "target": "minecraft:health",
+  "texture": "appleskin:textures/icons.png",
+  "renderer": "appleskin:health_overlay_renderer",
+  "logic": "appleskin:health_overlay_logic"
+}

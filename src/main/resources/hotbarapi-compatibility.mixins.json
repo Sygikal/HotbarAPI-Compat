@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.sygii.hotbarapicompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "dev.sygii.hotbarapicompat.mixin.HotbarAPICompatMixinPlugin",
+  "mixins": [
+    "HUDOverlayHandlerInvoker",
+    "ThirstOverlayRendererAccessor",
+    "ThirstOverlayRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
