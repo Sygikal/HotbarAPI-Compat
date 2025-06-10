@@ -3,7 +3,7 @@ package dev.sygii.hotbarapicompat.appleskin;
 import com.mojang.blaze3d.systems.RenderSystem;
 import dev.sygii.hotbarapi.elements.StatusBarLogic;
 import dev.sygii.hotbarapi.elements.StatusBarRenderer;
-import dev.sygii.hotbarapicompat.mixin.HUDOverlayHandlerInvoker;
+import dev.sygii.hotbarapicompat.mixin.appleskin.HUDOverlayHandlerInvoker;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;

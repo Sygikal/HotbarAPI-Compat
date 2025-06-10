@@ -1,10 +1,9 @@
 package dev.sygii.hotbarapicompat.appleskin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import dev.sygii.hotbarapi.HotbarAPI;
 import dev.sygii.hotbarapi.elements.StatusBarLogic;
 import dev.sygii.hotbarapi.elements.StatusBarRenderer;
-import dev.sygii.hotbarapicompat.mixin.HUDOverlayHandlerInvoker;
+import dev.sygii.hotbarapicompat.mixin.appleskin.HUDOverlayHandlerInvoker;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
@@ -15,10 +14,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.Difficulty;
 import squeek.appleskin.ModConfig;
-import squeek.appleskin.api.event.FoodValuesEvent;
-import squeek.appleskin.api.event.HUDOverlayEvent;
 import squeek.appleskin.api.food.FoodValues;
-import squeek.appleskin.api.handler.EventHandler;
 import squeek.appleskin.client.HUDOverlayHandler;
 import squeek.appleskin.helpers.FoodHelper;
 import squeek.appleskin.helpers.TextureHelper;

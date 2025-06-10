@@ -1,9 +1,6 @@
-package dev.sygii.hotbarapicompat.mixin;
+package dev.sygii.hotbarapicompat.mixin.appleskin;
 
-import com.mojang.blaze3d.platform.GlStateManager;
-import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.item.ItemStack;
-import org.lwjgl.opengl.GL11;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.gen.Invoker;
