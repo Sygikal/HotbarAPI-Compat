@@ -2,14 +2,12 @@ package dev.sygii.hotbarapicompat.tan;
 
 import dev.sygii.hotbarapi.elements.StatusBarLogic;
 import dev.sygii.hotbarapi.elements.StatusBarRenderer;
-import dev.sygii.hotbarapicompat.mixin.ThirstOverlayRendererAccessor;
+import dev.sygii.hotbarapicompat.mixin.tan.ThirstOverlayRendererAccessor;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.MathHelper;
 import toughasnails.api.potion.TANEffects;
 import toughasnails.api.thirst.IThirst;
 import toughasnails.api.thirst.ThirstHelper;

@@ -1,4 +1,4 @@
-package dev.sygii.hotbarapicompat.mixin;
+package dev.sygii.hotbarapicompat.mixin.tan;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
