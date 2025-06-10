@@ -33,8 +33,13 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modApi files('run/mods/hotbarapi-1.0.0.jar')
+	modApi files('run/mods/hotbarapi-1.1.0.jar')
+	//modCompileOnly files('run/mods/artifacts-fabric-9.5.15.jar')
 	modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
+
+	modCompileOnly ('maven.modrinth:artifacts:9.5.15-fabric') {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 
 	modCompileOnly ('maven.modrinth:tough-as-nails:9.2.0.171-fabric') {
 		exclude(group: "net.fabricmc.fabric-api")

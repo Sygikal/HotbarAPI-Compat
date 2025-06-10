@@ -29,6 +29,10 @@ public class HotbarAPICompatMixinPlugin implements IMixinConfigPlugin {
                 && (mixinClassName.equals("HUDOverlayHandlerInvoker")))
             return false;
 
+        if (!FabricLoader.getInstance().isModLoaded("artifacts")
+                && (mixinClassName.equals("HeliumFlamingoOverlayMixin")))
+            return false;
+
         return true;
     }
 
