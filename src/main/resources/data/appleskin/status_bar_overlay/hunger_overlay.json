@@ -1,5 +1,5 @@
 {
-  "target": "minecraft:food",
+  "target": "minecraft:hunger",
   "texture": "appleskin:textures/icons.png",
   "renderer": "appleskin:hunger_overlay_renderer",
   "logic": "appleskin:hunger_overlay_logic"
