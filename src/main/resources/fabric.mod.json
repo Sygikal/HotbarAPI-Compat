@@ -3,13 +3,13 @@
 	"id": "hotbarapi-compatibility",
 	"version": "${version}",
 	"name": "HotbarAPI Compatibility",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Patches compatibility for HotbarAPI into many mods",
 	"authors": [
-		"Me!"
+		"Sygikal"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Sygikal/HotbarAPI-Compat"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/hotbarapi-compatibility/icon.png",
@@ -28,7 +28,7 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"hotbarapi": "1.0.0"
+		"hotbarapi": ">=1.1.0"
 	},
 	"suggests": {
 		"another-mod": "*"
